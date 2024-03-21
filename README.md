@@ -1,3 +1,28 @@
+# DeSo Creator Coin - Bulk Transfer
+This is a very basic and hacky fork of the "DeSo Examples React" project.
+
+I've modified the code to replace the basic "Send a Post" (submitPost) example, with "Bulk Send Creator Coins" (transferCreatorCoin) functionality.
+
+Currently the code is hardcoded to sending @10XChris Creator Coins from @10XChris account...but you're welcome to fork this repo and change the code to your own needs.
+
+Once you've got the app running on localhost:3000 you can enter data like this into the TEXTAREA and submit a bulk transfer of coins...
+
+```
+{"recipient":"BC1YLixHLxJght9VPiT4HPJ32WunsnxeFBTA21r9V46hWExdPraJpRr","amount":"0.0000406860278372591"},
+{"recipient":"BC1YLiN3kyQ9Rq5hmM7i8dWAp6jLPUTP5fXeffHY3vTZnQFqypUmN7M","amount":"0.0000406860278372591"},
+```
+
+FYI you can inspect your Console in Chrome Dev Tools to see the response from each transaction.
+
+I've built this little tool help me with airdropping my Creator Coins as part of my 10X Diamonds SocialFi experiment...
+https://diamondapp.com/posts/b0f29730a1f43550a519af867ea9aefc9a5ab753e15f598727632602e2db9365?tab=posts
+
+Shout out to DeSo OPS - I highly recommend using their tool for airdropping DeSo, Creator Coins, DAO Tokens & Diamonds (...I only hacked together my own custom tool because I have a very specific use case: sending to a custom list, with multiple transactions per publicKey, with unique amounts per transaction)
+https://desoops.com/
+https://github.com/agilitehub/desoops-portal
+
+Enjoy!
+
 # Deso Examples React
 
 This is a simple [Create React
